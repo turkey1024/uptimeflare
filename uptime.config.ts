@@ -1,3 +1,5 @@
+import { MaintenanceConfig, PageConfig, WorkerConfig } from './types/config'
+
 const pageConfig: PageConfig = {
   title: "Turkey's Status",
   links: [
@@ -35,3 +37,5 @@ const workerConfig: WorkerConfig = {
 }
 
 const maintenances: MaintenanceConfig[] = []
+
+export { maintenances, pageConfig, workerConfig }
